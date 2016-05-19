@@ -1,0 +1,4 @@
+<transport name="${component.name}" label="Email Outbound Transport" domain="${transport.domain}" type="outbound">
+	<description>Email outbound transport.</description>
+	<propertyDefinitions/>
+</transport>

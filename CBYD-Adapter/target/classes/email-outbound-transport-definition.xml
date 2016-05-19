@@ -1,0 +1,4 @@
+<transport name="Email" label="Email Outbound Transport" domain="com.esri.geoevent.transport.inbound" type="outbound">
+	<description>Email outbound transport.</description>
+	<propertyDefinitions/>
+</transport>

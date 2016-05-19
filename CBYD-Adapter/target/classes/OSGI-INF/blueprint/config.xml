@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0" >
+	<bean id="emailInboundTransportServiceBean" class="com.esri.geoevent.transport.email.EmailInboundTransportService" activation="eager">
+		<property name="bundleContext" ref="blueprintBundleContext"/>
+	</bean>
+	<bean id="emailOutboundTransportServiceBean" class="com.esri.geoevent.transport.email.EmailOutboundTransportService" activation="eager">
+		<property name="bundleContext" ref="blueprintBundleContext"/>
+	</bean>
+	<service id="emailInboundTransportService" ref="emailInboundTransportServiceBean" interface="com.esri.ges.transport.TransportService"/>
+	<service id="emailOutboundTransportService" ref="emailOutboundTransportServiceBean" interface="com.esri.ges.transport.TransportService"/>
+</blueprint>

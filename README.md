@@ -6,3 +6,5 @@ and reads unread emails. It then parses the text and using GeoEvent Processor ca
 
 The purpose of this extension is to map CBYD requests to determine if they fall within an area that needs to be marked out.
 
+updated for 10.4
+
